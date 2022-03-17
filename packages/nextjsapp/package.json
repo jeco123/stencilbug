@@ -1,0 +1,26 @@
+{
+  "name": "nextjsapp",
+  "description": "> TODO: description",
+  "version": "0.0.1",
+  "author": "Collomp <collomp_j@yahoo.fr>",
+  "homepage": "",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "start:app": "yarn dev",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "component-library-react": "0.0.1",
+    "next": "12.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "8.11.0",
+    "eslint-config-next": "12.1.0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "stencilreactbug",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "lerna run build --stream",
+    "start:app": "lerna run start:app --stream"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "workspaces": [
+    "packages/*"
+ ]
+}
