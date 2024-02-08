@@ -3,6 +3,9 @@ import { reactOutputTarget as react } from '@stencil/react-output-target';
 
 export const config: Config = {
   namespace: 'web-components',
+  extras: {
+    experimentalSlotFixes: true,
+  },
   outputTargets: [
     react({
       componentCorePackage: 'web-components',
